@@ -10,7 +10,7 @@ export class HomePage {
   b = "42"
   numers = ["a", "b"]
   books = [
-    {q:"Фильмы", n:"Bladeruner"},
+    {q:"Фильм", n:"Bladeruner"},
     {q:"Музыка", n:"Afterlife"}
   ]
   constructor() {}

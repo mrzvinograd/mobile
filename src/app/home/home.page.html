@@ -46,5 +46,11 @@
     <ion-item *ngFor="let numer of numers">
       {{numer}}
     </ion-item>
+    <ion-grid>
+      <ion-row *ngFor="let book of books">
+        <ion-col size="6" size-md="4" size-lg="6">{{book.q}}</ion-col>
+        <ion-col size="6" size-md="4" size-lg="6">{{book.n}}</ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-list>
 </ion-content>
