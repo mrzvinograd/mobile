@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { from } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +14,9 @@ export class HomePage {
     {q:"Фильм", n:"Bladeruner"},
     {q:"Музыка", n:"Afterlife"}
   ]
+  lavina(){
+    this.numers.splice(0);
+  }
   constructor() {}
 
 }
